@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-wrapper {
+  background-color: rgb(0, 0, 0);
+}
+nav li a {
+  font-family: 'Eagle Lake', cursive;
+  font-size: 24px;
+}
+.header {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+}
+.parallex-container{
+  height:600px;
+}
+@media only screen and (max-width: 1024px) {
+.parallax-desktop img {display:none}
+.parallax-mobile img {display: block}
+}
+
+/* Special Rules for Desktops */
+@media only screen and (min-width: 1024px) {
+.parallax-desktop img {display:block}
+.parallax-mobile img {display: none}
+}
+.card-image{
+align-items: center;
+}
+.card-title{
+  text-align: center;
+  color: black;
+  font-style: 'Indie Flower'
+}
+.cardcontent{
+text-align: center;
+}
+.card-action{
+  text-align: center;
+  color:black;
+}
+a{
+  color:black;
+}
+p{
+  font-family: 'Permanent Marker'
+}
