@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-wrapper {
+  background-color: rgb(0, 0, 0);
+}
+nav li a {
+  font-family: 'Eagle Lake', cursive;
+  font-size: 24px;
+}
+.header {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+}
+.description {
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+}
+@media only screen and (max-width: 1024px) {
+.parallax-desktop {display:none}
+.parallax-mobile  {display: block}
+}
+
+@media only screen and (min-width: 1024px) {
+.parallax-desktop  {display:block}
+.parallax-mobile  {display: none}
+}
+span {
+  font-size: 75px;
+}

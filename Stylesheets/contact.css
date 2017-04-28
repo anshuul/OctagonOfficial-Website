@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-wrapper {
+  background-color: rgb(0, 0, 0);
+}
+nav li a {
+  font-family: 'Eagle Lake', cursive;
+  font-size: 24px;
+}
+.header {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+}
+.description {
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+}
+button {
+  float: right;
+}
+.select{
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
